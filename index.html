@@ -26,9 +26,9 @@
 
 <body>
     <!-- Header Banner -->
-    <section class="container mx-auto  flex my-14 justify-center justify-items-center">
-        <div class="w-1/2 pr-8">
-            <h1 class="text-7xl font-bold ">It's good <br>
+    <section class="container mx-auto   md:flex lg:flex my-14 justify-center justify-items-center">
+        <div class="md:w-1/2 text-center md:text-left pr-8">
+            <h1 class="  text-4xl md:text-7xl lg:text-7xl  font-bold ">It's good <br>
                 tea time at The <br> Tea House
             </h1>
             <P class="text-lg py-8 text-zinc-500 leading-7 font-medium ">
@@ -40,7 +40,7 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
         </div>
-        <div>
+        <div class="sm:">
             <div class="z-0">
                 <img class="z-0" src="images/banner.png" alt="">
             </div>
@@ -61,15 +61,15 @@
     <!-- Featured section -->
     <section class="container mx-auto my-60 bg-white">
         <div class="text-center">
-            <h1 class="text-7xl font-bold">Our Featured Products</h1>
+            <h1 class=" md:text-7xl text-4xl font-bold">Our Featured Products</h1>
             <p
-                class="grid justify-items-center text-lg py-8 text-zinc-500 leading-7 font-medium px-40 pb-16 text-center">
+                class="grid justify-items-center text-lg py-8 text-zinc-500 leading-7 font-medium md:px-40 px-5  pb-16 text-center">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour, or randomised words which don't look even slightly
                 believable. </p>
         </div>
 
-        <div class="grid grid-cols-4 gap-5 justify-center justify-items-center ">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-5 justify-center justify-items-center ">
             <div
                 class="grid justify-center text-center justify-items-center p-8 bg-gradient-to-t from-white to-[#f0f0f0] rounded-md">
                 <img src="images/tea-1.png" alt="">
@@ -103,9 +103,9 @@
     </section>
 
     <!-- Product details  -->
-    <section class="container mx-auto grid grid-cols-4">
-        <div class="grid justify-end  gap-y-8 col-span-1">
-            <div class="bg-red-100 w-60 h-36 rounded-lg">
+    <section class="container mx-auto  grid  md:grid-cols-4">
+        <div class="grid justify-items-center justify-center md:justify-end  gap-y-8 md:col-span-1">
+            <div class="bg-red-100 md:w-60 lg:w-60 h-36 rounded-lg">
 
             </div>
             <div class="grid pt-14 justify-center justify-items-center bg-[#58763926] w-60 h-96 rounded-lg">
@@ -118,12 +118,12 @@
             <div class="grid pt-14 justify-center justify-items-center bg-orange-100 w-60 h-96 rounded-lg">
                 <img src="images/fresh-1.png" alt="">
             </div>
-            <div class="bg-gradient-to-r from-[#58763931] w-60 h-36 rounded-lg">
+            <div class="bg-gradient-to-r from-[#58763931] md:w-60 lg:w-60 h-36 rounded-lg">
 
             </div>
         </div>
 
-        <div class="gird justify-center justify-items-start row-span-2 col-span-2 pr-52">
+        <div class="gird justify-center justify-items-center md:justify-items-start row-span-4 col-span-4 md:row-span-2 md:col-span-2 pr-52">
             <div class=" ">
                 <h1 class="text-5xl font-bold">Great Tea, Freshly Presented</h1>
                 <p class="text-base font-medium leading-7 text-zinc-500 py-5">The meaning of gong cha is chanese is to
@@ -147,7 +147,7 @@
     <!-- Client Section -->
 
     <section
-        class="container grid justify-items-center grid-cols-2 mx-auto bg-gradient-to-l py-20 my-36 rounded-xl from-[#FF0000] to-[#FF8938] ">
+        class="container grid justify-items-center  md:grid-cols-2 mx-auto bg-gradient-to-l py-20 my-36 rounded-xl from-[#FF0000] to-[#FF8938] ">
         <div class="pl-16 pr-9 py-16">
             <h1 class="text-5xl font-bold text-white">Meet Our Super <br> Clients</h1>
             <p class="py-5 text-base font-medium leading-7 text-white max-w-lg ">There are many variations of passages
@@ -215,7 +215,7 @@
                 randomised words which don't look even slightly believable. </p>
         </div>
 
-        <div class="flex gap-8">
+        <div class=" grid grid-cols-1 md:flex gap-8">
             <div class=" max-w-xs p-4 border rounded-lg border-slate-500">
                 <img class="" src="images/news-1.png" alt="">
                 <p class="text-lg font- font-base text-zinc-400 py-2">Feb 05, 2027</p>
@@ -247,12 +247,12 @@
 
     <section class="py-32 px-56 bg-gradient-to-r from-[#ff883815] to-[#ff000015]">
         <div class="container grid  mx-auto">
-            <div class="pb-24 grid grid-cols-2">
+            <div class="pb-24 grid grid-cols-1 md:grid-cols-2">
                 <div class="">
                     <img src="images/cup.png" alt="">
                 </div>
-                <div class="grid grid-cols-5 justify-items-end">
-                    <div class="col-span-3  grid justify-items-center justify-center">
+                <div class="grid py-8 grid-cols-1 md:grid-cols-5 justify-items-end">
+                    <div class="col-span-1 md:col-span-3  grid justify-items-center justify-center">
                         <h1 class="text-xl pt-4 font-semibold text-[#494949]">Ready to get strated?</h1>
                     </div>
                     <div class="grid justify-items-center justify-center col-span-2">
@@ -266,8 +266,8 @@
 
             <!-- Footer menus  -->
 
-            <div class="grid grid-cols-4 mb-14">
-                <div class="grid grid-cols-1">
+            <div class="grid grid-cols-2 md:grid-cols-4 mb-14">
+                <div class="grid md:grid-cols-1">
                     <h1 class="text-xl font-bold">Quick Links</h1>
                     <div class=" grid col-span-1 text-lg font-medium leading-10 text-[#494949]">
                         <a href="">Home</a>
